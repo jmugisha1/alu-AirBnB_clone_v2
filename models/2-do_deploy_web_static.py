@@ -3,7 +3,7 @@
 from fabric.api import env, put, run
 from os.path import exists
 
-env.hosts = ['3.91.216.228', '18.207.151.194']
+env.hosts = ['3.208.1.131', '54.172.81.110']
 env.user = "ubuntu"
 env.key = "~/.ssh/id_rsa"
 
