@@ -13,7 +13,7 @@ from flask import abort
 
 app = Flask(__name__)
 
-
+# Define a route for the root path
 @app.route("/", strict_slashes=False)
 def hello_hbnb():
     """Displays 'Hello HBNB!'."""

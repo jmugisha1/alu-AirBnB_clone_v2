@@ -19,7 +19,7 @@ def cities_by_states():
     states = storage.all("State")
     return render_template("8-cities_by_states.html", states=states)
 
-
+##Define a function to handle the teardown of the app context
 @app.teardown_appcontext
 def teardown(exc):
     """Remove the current SQLAlchemy session."""
