@@ -15,6 +15,7 @@ Routes:
 from flask import Flask
 from flask import render_template
 
+# Create an instance of the Flask class
 app = Flask(__name__)
 app.jinja_env.trim_blocks = True
 app.jinja_env.lstrip_blocks = True

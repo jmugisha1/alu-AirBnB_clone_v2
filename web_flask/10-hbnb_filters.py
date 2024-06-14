@@ -4,6 +4,7 @@ The application listens on 0.0.0.0, port 5000.
 Routes:
     /hbnb_filters: HBnB HTML filters page.
 """
+# Import necessary modules
 from models import storage
 from flask import Flask
 from flask import render_template
